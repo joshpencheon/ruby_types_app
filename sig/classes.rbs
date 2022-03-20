@@ -1,0 +1,14 @@
+module RubyTypesApp
+  class Car
+    attr_reader colour: String
+    attr_reader speed: Integer
+
+    def initialize: (colour: String) -> void
+
+    def accelerate: (?by: Integer) -> Integer
+  end
+
+  class RacingCar < Car
+    def initialize: () -> void
+  end
+end

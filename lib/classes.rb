@@ -23,6 +23,8 @@ end
 car = RubyTypesApp::Car.new(colour: "blue")
 car.accelerate
 car.accelerate(by: 10)
+
+# Our RBS definition says the `by:` parameter has to be an Integer!
 car.accelerate(by: 10.1)
 
 racer = RubyTypesApp::RacingCar.new
