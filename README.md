@@ -1,6 +1,6 @@
 # Ruby Types App
 
-Playground for testing our RBS.
+Playground for testing out RBS.
 
 ### Structure
 
